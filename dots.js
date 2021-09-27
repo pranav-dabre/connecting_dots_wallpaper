@@ -29,7 +29,7 @@ var canvasDots = function() {
         this.vx = -.5 + Math.random();
         this.vy = -.5 + Math.random();
 
-        this.radius = Math.random();
+        this.radius = Math.random()*1.5;
     }
 
     Dot.prototype = {
